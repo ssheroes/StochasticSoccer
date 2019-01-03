@@ -1,4 +1,4 @@
-% git is easy
+
 classdef SoccerTester < handle
     %SOCCERTESTER tester class, test the two players in one game
     
