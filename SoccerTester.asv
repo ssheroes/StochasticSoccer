@@ -73,7 +73,8 @@ classdef SoccerTester < handle
 %             obj.game.draw();
             while  step <=obj.StepCntTotal
                 if mod(step,100)==0
-                    fprintf('%d%%\n',i*100/obj.StepCntTotal);
+                    disp('------------------------------------');
+                    fprintf('%4f%%\n',step*100/obj.StepCntTotal);
                     fprintf('第%d次 episode已完成，累积%d次step\n',i,step)
                     disp(['当前时间',datestr(now)]);                   
                 end                
@@ -97,6 +98,11 @@ classdef SoccerTester < handle
 %                     obj.game.draw();
                 end
             end
+        end
+        
+        function wins = testPerformance(obj,playerA,playerB)
+            
+            
         end
         
         function [] = plotwinResult(obj , wins)  % draw the win result

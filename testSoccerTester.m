@@ -1,4 +1,3 @@
-%hhhhh
 % test the class SoccerTester
 clear all;
 close all;

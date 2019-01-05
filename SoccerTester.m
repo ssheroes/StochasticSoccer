@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-% add plot policy
-=======
->>>>>>> parent of fdca4ae... Update SoccerTester.m
-=======
-
->>>>>>> parent of 8c629aa... add plot
 classdef SoccerTester < handle
     %SOCCERTESTER tester class, test the two players in one game
     
@@ -107,6 +99,7 @@ classdef SoccerTester < handle
                 end
             end
         end
+        
         
         function [] = plotwinResult(obj , wins)  % draw the win result
             len = length(wins);
